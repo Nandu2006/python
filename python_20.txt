@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Read CSV file (replace with your CSV file name)
+df = pd.read_csv("students.csv")
+
+print("First 5 rows:\n", df.head())
+print("\nSummary Statistics:\n", df.describe())
+print("\nColumns:", df.columns.tolist())
